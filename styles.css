@@ -1,0 +1,64 @@
+body {
+    color: White;
+    background-color: black;
+}
+
+.content {
+    width: max-content;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+}
+
+ul {
+    padding: 0px;
+    display: inline-block;
+}
+
+.recipe-button {
+    background-color: white;
+    margin: 16px;
+    border-radius: 8px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border-width: 2px;
+    font-size: 36px;
+    display: block;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    width: max-content;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid transparent;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: max-content;
+}
+
+.recipe-button a {
+    display: block;
+    padding: 16px;
+    width: 100%;
+}
+
+a:hover { 
+    text-decoration: none; 
+    color: white;
+    background-color: black;
+    border-style: solid;
+  } 
+
